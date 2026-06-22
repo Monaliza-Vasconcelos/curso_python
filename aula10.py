@@ -1,0 +1,4 @@
+#concatenação
+
+concatenacao = 'Monaliza' + '' + 'Vasconcelos'
+
