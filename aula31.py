@@ -11,9 +11,16 @@ v2 = 'b'
 print(id(v1))
 print(id(v2))
 
-# condicao = False
+condicao = True
+passou_no_if = None
 
-#if condicao: 
-#    print('Faça algo')
-#else:
-    #print('Não faça algo')
+if condicao: 
+     passou_no_if = True
+     print('Faça algo')
+else:
+     print('Não faça algo')
+
+if passou_no_if is not None:
+     print('Passou no if')
+else:
+     print('Não passou no if')
